@@ -89,17 +89,17 @@ Processed images will be saved in `./results/dataset_selected/`.
 
 <p align="center"> <strong>  LSRW-Nikon </strong> </p>
 
-| <img src="images/gallery/LSRW/Huawei/LSRWN_input.png" alt="add" width="250"> | <img src="images/gallery/LSRW/Huawei/LSRWNikon_MIRNET.png" alt="add" width="250"> | <img src="images/gallery/LSRW/Huawei/LSRWN_RUAS.png" alt="add" width="250"> | <img src="images/gallery/LSRW/Huawei/LSRWHuawei_EnGAN.png" alt="add" width="250"> | <img src="images/gallery/LSRW/Huawei/LSRWN_ours.png" alt="add" width="250"> |  <img src="images/gallery/LSRW/Huawei/LSRWN_GT.png" alt="add" width="250"> |
+| <img src="images/gallery/LSRW/Nikon/LSRWN_input.png" alt="add" width="250"> | <img src="images/gallery/LSRW/Nikon/LSRWNikon_MIRNET.png" alt="add" width="250"> | <img src="images/gallery/LSRW/Nikon/LSRWN_RUAS.png" alt="add" width="250"> | <img src="images/gallery/LSRW/Nikon/LSRWN_EnGAN.png" alt="add" width="250"> | <img src="images/gallery/LSRW/Nikon/LSRWN_ours.png" alt="add" width="250"> |  <img src="images/gallery/LSRW/Nikon/LSRWN_GT.png" alt="add" width="250"> |
 |:-------------------------:|:-------------------------:|:-------------------------:|:-------------------------:|:-------------------------:|:-------------------------:|
-| Input | FECNet |SNR-Net| FourLLIE | **FLOL+** (ours) | Ground Truth|
+| Input | MIRNet |RUAS| EnGAN | **FLOL+** (ours) | Ground Truth|
 
 
 <p align="center"> <strong>  UHD-LL </strong> </p>
 
-| <img src="images/gallery/UHD-LL/674_INPUT.png" alt="add" width="250"> | <img src="images/gallery/UHD-LL/674_UHDFour.png" alt="add" width="250"> | <img src="images/gallery/UHD-LL/674_FLOL.png" alt="add" width="250"> | <img src="images/gallery/UHD-LL/674_GT.png" alt="add" width="250"> |
+| <img src="images/gallery/UHD_LL/674_INPUT.JPG" alt="add" width="250"> | <img src="images/gallery/UHD_LL/674_UHDFour.png" alt="add" width="250"> | <img src="images/gallery/UHD_LL/674_FLOL.JPG" alt="add" width="250"> | <img src="images/gallery/UHD_LL/674_GT.JPG" alt="add" width="250"> |
 |:-------------------------:|:-------------------------:|:-------------------------:|:-------------------------:|
-| <img src="images/gallery/UHD-LL/1791_INPUT.png" alt="add" width="250"> | <img src="images/gallery/UHD-LL/1791_UHDFour.png" alt="add" width="250"> | <img src="images/gallery/UHD-LL/1791_FLOL.png" alt="add" width="250"> | <img src="images/gallery/UHD-LL/1791_GT.png" alt="add" width="250"> |
-| Input | UHD-LL | **FLOL+** (ours) | Ground Truth|
+| <img src="images/gallery/UHD_LL/1791_INPUT.JPG" alt="add" width="250"> | <img src="images/gallery/UHD_LL/1791_UHDFour.png" alt="add" width="250"> | <img src="images/gallery/UHD_LL/1791_FLOL.JPG" alt="add" width="250"> | <img src="images/gallery/UHD_LL/1791_GT.JPG" alt="add" width="250"> |
+| Input | UHDFour | **FLOL+** (ours) | Ground Truth|
 
 ## 📢 Contact 
 

@@ -23,12 +23,12 @@ class Metric:
 
 if __name__=="__main__":
     parser=argparse.ArgumentParser(description="LPIPS script")
-    parser.add_argument('-g', '--path-gt', type=str, default='/mnt/valab-datasets/Low_Light_Enhancement_Datasets/UHD-LL/UHD-LL_down4/testing_set/gt', 
+    parser.add_argument('-g', '--path-gt', type=str, default='./datasets/UHD_LL/testing_set/input', 
                         help="Path to your gt images (e.g., desktop/train).")
-    parser.add_argument('-p', '--path-pred', type=str, default='/home/juaben/Training/Experiments/results/paired/UHD-LL', 
+    parser.add_argument('-p', '--path-pred', type=str, default='/results/UHD_LL/', 
                         help="Path to your predicted images (e.g., desktop/train).")
     
-    parser.add_argument('-e', '--extension', type=str, default='.jpg',
+    parser.add_argument('-e', '--extension', type=str, default='.JPG',
                         help="Extension of your images (e.g., '.jpg', '.png').")
 
     args=parser.parse_args()

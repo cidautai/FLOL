@@ -1,4 +1,5 @@
 kornia==0.7.3
+lpips==0.1.4
 numpy==1.24.4
 opencv-contrib-python==4.9.0.80
 opencv-python==4.8.1.78

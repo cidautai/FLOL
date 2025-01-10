@@ -61,17 +61,20 @@ You can download each specific dataset and put it on the `/datasets` folder for 
 ## ✏️ **Results**
 We present results in different datasets for FLOL+.
 
-|Dataset     | PSNR| SSIM  |
-|:-----------:|:------:|:------:|
-|UHD-LL   | 25.01| 0.888|
-|MIT-5k  | 22.10| 0.910|
-|LOLv2-real | 21.75| 0.849|
-|LOLv2-synth | 24.34| 0.906|
-|LSRW-Both | 19.23| 0.583|
+|Dataset     | PSNR| SSIM  | LPIPS|
+|:-----------:|:------:|:------:|:------:|
+|UHD-LL   | 25.01| 0.888| - |
+|MIT-5k  | 22.10| 0.910|-|
+|LOLv2-real | 21.75| 0.849|-|
+|LOLv2-synth | 24.34| 0.906|-|
+|LSRW-Both | 19.23| 0.583|0.273|
 
 ## ✈️ **Evaluation** 
 To check our results you could run the evaluation of DarkIR in each of the datasets:
-- Run ```python evaluation.py --config ./options/LOLv2-Real.yml``` on your terminal. Default is UHD-LL.
+- Run ```python evaluation.py --config ./options/LOLv2-Real.yml``` on your terminal to obtain PSNR and SSIM metrics. Default is UHD-LL.
+
+- Run ```python lpips_metric.py  -g /LSRW_GroundTruthImages_path -p /LSRW_predictedimages -e .jpg``` on your terminal to obtain LPIPS value. (LSRW predicted images are obtained by using LOLv2-Real weight file)
+
 ## 🚀 **Inference**
 You can process the entire set of test images of provided datasets by running: 
 
@@ -89,17 +92,17 @@ Processed images will be saved in `./results/dataset_selected/`.
 
 <p align="center"> <strong>  LSRW-Nikon </strong> </p>
 
-| <img src="images/gallery/LSRW/Huawei/LSRWN_input.png" alt="add" width="250"> | <img src="images/gallery/LSRW/Huawei/LSRWNikon_MIRNET.png" alt="add" width="250"> | <img src="images/gallery/LSRW/Huawei/LSRWN_RUAS.png" alt="add" width="250"> | <img src="images/gallery/LSRW/Huawei/LSRWHuawei_EnGAN.png" alt="add" width="250"> | <img src="images/gallery/LSRW/Huawei/LSRWN_ours.png" alt="add" width="250"> |  <img src="images/gallery/LSRW/Huawei/LSRWN_GT.png" alt="add" width="250"> |
+| <img src="images/gallery/LSRW/Nikon/LSRWN_input.png" alt="add" width="250"> | <img src="images/gallery/LSRW/Nikon/LSRWNikon_MIRNET.png" alt="add" width="250"> | <img src="images/gallery/LSRW/Nikon/LSRWN_RUAS.png" alt="add" width="250"> | <img src="images/gallery/LSRW/Nikon/LSRWN_EnGAN.png" alt="add" width="250"> | <img src="images/gallery/LSRW/Nikon/LSRWN_ours.png" alt="add" width="250"> |  <img src="images/gallery/LSRW/Nikon/LSRWN_GT.png" alt="add" width="250"> |
 |:-------------------------:|:-------------------------:|:-------------------------:|:-------------------------:|:-------------------------:|:-------------------------:|
-| Input | FECNet |SNR-Net| FourLLIE | **FLOL+** (ours) | Ground Truth|
+| Input | MIRNet |RUAS| EnGAN | **FLOL+** (ours) | Ground Truth|
 
 
 <p align="center"> <strong>  UHD-LL </strong> </p>
 
-| <img src="images/gallery/UHD-LL/674_INPUT.png" alt="add" width="250"> | <img src="images/gallery/UHD-LL/674_UHDFour.png" alt="add" width="250"> | <img src="images/gallery/UHD-LL/674_FLOL.png" alt="add" width="250"> | <img src="images/gallery/UHD-LL/674_GT.png" alt="add" width="250"> |
+| <img src="images/gallery/UHD_LL/674_INPUT.JPG" alt="add" width="250"> | <img src="images/gallery/UHD_LL/674_UHDFour.png" alt="add" width="250"> | <img src="images/gallery/UHD_LL/674_FLOL.JPG" alt="add" width="250"> | <img src="images/gallery/UHD_LL/674_GT.JPG" alt="add" width="250"> |
 |:-------------------------:|:-------------------------:|:-------------------------:|:-------------------------:|
-| <img src="images/gallery/UHD-LL/1791_INPUT.png" alt="add" width="250"> | <img src="images/gallery/UHD-LL/1791_UHDFour.png" alt="add" width="250"> | <img src="images/gallery/UHD-LL/1791_FLOL.png" alt="add" width="250"> | <img src="images/gallery/UHD-LL/1791_GT.png" alt="add" width="250"> |
-| Input | UHD-LL | **FLOL+** (ours) | Ground Truth|
+| <img src="images/gallery/UHD_LL/1791_INPUT.JPG" alt="add" width="250"> | <img src="images/gallery/UHD_LL/1791_UHDFour.png" alt="add" width="250"> | <img src="images/gallery/UHD_LL/1791_FLOL.JPG" alt="add" width="250"> | <img src="images/gallery/UHD_LL/1791_GT.JPG" alt="add" width="250"> |
+| Input | UHDFour | **FLOL+** (ours) | Ground Truth|
 
 ## 📢 Contact 
 

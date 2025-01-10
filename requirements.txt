@@ -1,0 +1,13 @@
+kornia==0.7.3
+numpy==1.24.4
+opencv-contrib-python==4.9.0.80
+opencv-python==4.8.1.78
+Pillow==10.0.1
+PyYAML==6.0.1
+ptflops==0.7.4
+torch==2.1.0
+torchvision==0.16.0
+torchmetrics==1.6.1
+
+
+

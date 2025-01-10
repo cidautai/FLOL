@@ -1,0 +1,17 @@
+# Set weight path and dataset name
+settings:
+
+  weight: ./weights/flolv2_all_111439.pt
+  dataset: LOLv2-Real
+  extension_images: '*.png'
+
+# Establish paths to the images of dataset
+paths_images:
+
+  low: ./datasets/LOLv2-Real/test/Low
+  high: ./datasets/LOLv2-Real/test/Normal
+
+# Save processed images
+save:
+
+  path_save: ./results/LOLv2-Real/

@@ -1,0 +1,17 @@
+# Set weight path and dataset name
+settings:
+
+  weight: ./weights/flolv2_UHDLL.pt
+  dataset: UHD_LL
+  extension_images: '*.JPG'
+
+# Establish paths to the images of dataset
+paths_images:
+
+  low: ./datasets/UHD_LL/testing_set/input
+  high: ./datasets/UHD_LL/testing_set/gt
+
+# Save processed images
+save:
+
+  path_save: ./results/UHD_LL/

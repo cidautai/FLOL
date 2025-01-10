@@ -25,7 +25,7 @@ if __name__=="__main__":
     parser=argparse.ArgumentParser(description="LPIPS script")
     parser.add_argument('-g', '--path-gt', type=str, default='./datasets/UHD_LL/testing_set/input', 
                         help="Path to your gt images (e.g., desktop/train).")
-    parser.add_argument('-p', '--path-pred', type=str, default='/results/UHD_LL/', 
+    parser.add_argument('-p', '--path-pred', type=str, default='./results/UHD_LL/', 
                         help="Path to your predicted images (e.g., desktop/train).")
     
     parser.add_argument('-e', '--extension', type=str, default='.JPG',

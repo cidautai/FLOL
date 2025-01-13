@@ -56,7 +56,7 @@ The datasets used for training and/or evaluation are:
 |NPE | 84 images | [NPE](https://ieeexplore.ieee.org/document/6512558) |
 |VV | 24 images | [VV](https://drive.google.com/file/d/1OvHuzPBZRBMDWV5AKI-TtIxPCYY8EW70/view)|
 
-You can download each specific dataset and put it on the `/datasets` folder for testing. 
+You can download LOLv2-Real and UHD-LL datasets and put them on the `/datasets` folder for testing. 
 
 ## ✏️ **Results**
 We present results in different datasets for FLOL+.

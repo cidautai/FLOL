@@ -53,7 +53,7 @@ The datasets used for training and/or evaluation are:
 |DICM | 69 images | [DICM](https://ieeexplore.ieee.org/document/6615961)|
 |LIME | 10 images | [LIME](https://drive.google.com/file/d/1OvHuzPBZRBMDWV5AKI-TtIxPCYY8EW70/view)|
 |MEF | 17 images | [MEF](https://ieeexplore.ieee.org/document/7120119) |
-|NPE | 84 images | [NPE](https://ieeexplore.ieee.org/document/6512558) |
+|NPE | 150 images | [NPE](https://ieeexplore.ieee.org/document/6512558) |
 |VV | 24 images | [VV](https://drive.google.com/file/d/1OvHuzPBZRBMDWV5AKI-TtIxPCYY8EW70/view)|
 
 You can download LOLv2-Real and UHD-LL datasets and put them on the `/datasets` folder for testing. 

@@ -5,7 +5,7 @@ Juan C. Benito, Daniel Feijoo, Alvaro Garcia, Marcos V. Conde
 > **Abstract:**
 > Low-Light Image Enhancement (LLIE) is a key task in computational photography and imaging. The problem of enhancing images captured during night or in dark environments has been well-studied in the image signal processing literature.  However, current deep learning-based solutions struggle with efficiency and robustness in real-world scenarios (e.g. scenes with noise, saturated pixels, bad illumination). We propose a lightweight neural network that combines image processing in the frequency and spatial domains. Our method, FLOL+, is one of the fastest models for this task, achieving state-of-the-art results on popular real scenes datasets such as LOL and LSRW. Moreover, we are able to process 1080p images under 12ms. Our code and models will be open-source.
 
-| <img src="images/teaser/1271_UHD_LL.JPG" alt="add" width="450"> | <img src="images/teaser/1271_UHD_LL.png" alt="add" width="450"> | <img src="images/teaser/1271_FLOL+.JPG" alt="add" width="450"> |
+| <img src="images/teaser/425_UHD_LL.JPG" alt="add" width="450"> | <img src="images/teaser/425_UHD_LL.png" alt="add" width="450"> | <img src="images/teaser/425_FLOL+.JPG" alt="add" width="450"> |
 |:-------------------------:|:-------------------------:|:-------------------------:|
 | Input              | UHDFour                | **FLOL+** (ours)    |
 | <img src="images/teaser/1778_UHD_LL.JPG" alt="add" width="450"> | <img src="images/teaser/1778_UHD_LL.png" alt="add" width="450"> | <img src="images/teaser/1778_FLOL+.JPG" alt="add" width="450"> |

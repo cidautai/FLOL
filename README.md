@@ -107,6 +107,10 @@ Processed images will be saved in `./results/dataset_selected/`.
 | <img src="images/gallery/UHD_LL/1791_INPUT.JPG" alt="add" width="250"> | <img src="images/gallery/UHD_LL/1791_UHDFour.png" alt="add" width="250"> | <img src="images/gallery/UHD_LL/1791_FLOL.JPG" alt="add" width="250"> | <img src="images/gallery/UHD_LL/1791_GT.JPG" alt="add" width="250"> |
 | Input | UHDFour | **FLOL+** (ours) | Ground Truth|
 
+## 🎫 License 
+
+This work is licensed under the MIT License.
+
 ## 📢 Contact 
 
 If you have any questions, please contact juaben@cidaut.es and marcos.conde@uni-wuerzburg.de

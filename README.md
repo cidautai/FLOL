@@ -109,7 +109,7 @@ Processed images will be saved in `./results/dataset_selected/`.
 
 ## 🎫 License 
 
-This work is licensed under the MIT License
+This work is licensed under the MIT License.
 
 ## 📢 Contact 
 

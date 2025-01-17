@@ -1,6 +1,7 @@
 # FLOL: Fast Baselines for Real-World Low-Light Enhancement
 
 [![Hugging Face](https://img.shields.io/badge/Demo-%F0%9F%A4%97%20Hugging%20Face-blue)](https://huggingface.co/spaces/Cidaut/FLOL) 
+[![paper](https://img.shields.io/badge/arXiv-Paper-<COLOR>.svg)](https://arxiv.org/abs/2501.09718)
 
 Juan C. Benito, Daniel Feijoo, Alvaro Garcia, Marcos V. Conde
 

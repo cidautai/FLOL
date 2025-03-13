@@ -3,7 +3,8 @@
 [![Hugging Face](https://img.shields.io/badge/Demo-%F0%9F%A4%97%20Hugging%20Face-blue)](https://huggingface.co/spaces/Cidaut/FLOL) 
 [![paper](https://img.shields.io/badge/arXiv-Paper-<COLOR>.svg)](https://arxiv.org/abs/2501.09718)
 
-Juan C. Benito, Daniel Feijoo, Alvaro Garcia, Marcos V. Conde
+**[Juan C. Benito](https://scholar.google.com/citations?hl=en&user=f186MIUAAAAJ), [Daniel Feijoo](https://scholar.google.com/citations?hl=en&user=hqbPn4YAAAAJ), [Alvaro Garcia](https://scholar.google.com/citations?hl=en&user=c6SJPnMAAAAJ), [Marcos V. Conde](https://scholar.google.com/citations?user=NtB1kjYAAAAJ&hl=en)** (CIDAUT AI  and University of Würzburg)
+
 
 
 > **Abstract:**
@@ -17,7 +18,7 @@ Juan C. Benito, Daniel Feijoo, Alvaro Garcia, Marcos V. Conde
 
 ## 🛠️ **Network Architecture**
 
-![add](images/network-scheme.png)
+![add](images/general-scheme.svg)
 
 ## 📦  **Dependencies and Installation**
 

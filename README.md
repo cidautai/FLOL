@@ -18,7 +18,7 @@
 
 ## 🛠️ **Network Architecture**
 
-![add](images/general-scheme.svg)
+![add](images/general-scheme.png)
 
 ## 📦  **Dependencies and Installation**
 

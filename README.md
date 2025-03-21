@@ -12,9 +12,9 @@
 
 | <img src="images/teaser/425_UHD_LL.JPG" alt="add" width="450"> | <img src="images/teaser/425_UHD_LL.png" alt="add" width="450"> | <img src="images/teaser/425_FLOL+.JPG" alt="add" width="450"> |
 |:-------------------------:|:-------------------------:|:-------------------------:|
-| Input              | UHDFour                | **FLOL+** (ours)    |
+| Input              | UHDFour                | **FLOL** (ours)    |
 | <img src="images/teaser/1778_UHD_LL.JPG" alt="add" width="450"> | <img src="images/teaser/1778_UHD_LL.png" alt="add" width="450"> | <img src="images/teaser/1778_FLOL+.JPG" alt="add" width="450"> |
-| Input                 | UHDFour    | **FLOL+** (ours)                 |
+| Input                 | UHDFour    | **FLOL** (ours)                 |
 
 ## 🛠️ **Network Architecture**
 
@@ -93,13 +93,13 @@ Processed images will be saved in `./results/dataset_selected/`.
 
 | <img src="images/gallery/LSRW/Huawei/LSRWHuawei_input.png" alt="add" width="250"> | <img src="images/gallery/LSRW/Huawei/LSRWHuawei_fecnet.png" alt="add" width="250"> | <img src="images/gallery/LSRW/Huawei/LSRWHuawei_SNR.png" alt="add" width="250"> | <img src="images/gallery/LSRW/Huawei/LSRWHuawei_FourLLie.png" alt="add" width="250"> | <img src="images/gallery/LSRW/Huawei/LSRWHuawei_ours.png" alt="add" width="250"> |  <img src="images/gallery/LSRW/Huawei/LSRWHuawei_GT.png" alt="add" width="250"> |
 |:-------------------------:|:-------------------------:|:-------------------------:|:-------------------------:|:-------------------------:|:-------------------------:|
-| Input | FECNet |SNR-Net| FourLLIE | **FLOL+** (ours) | Ground Truth|
+| Input | FECNet |SNR-Net| FourLLIE | **FLOL** (ours) | Ground Truth|
 
 <p align="center"> <strong>  LSRW-Nikon </strong> </p>
 
 | <img src="images/gallery/LSRW/Nikon/LSRWN_input.png" alt="add" width="250"> | <img src="images/gallery/LSRW/Nikon/LSRWNikon_MIRNET.png" alt="add" width="250"> | <img src="images/gallery/LSRW/Nikon/LSRWN_RUAS.png" alt="add" width="250"> | <img src="images/gallery/LSRW/Nikon/LSRWN_EnGAN.png" alt="add" width="250"> | <img src="images/gallery/LSRW/Nikon/LSRWN_ours.png" alt="add" width="250"> |  <img src="images/gallery/LSRW/Nikon/LSRWN_GT.png" alt="add" width="250"> |
 |:-------------------------:|:-------------------------:|:-------------------------:|:-------------------------:|:-------------------------:|:-------------------------:|
-| Input | MIRNet |RUAS| EnGAN | **FLOL+** (ours) | Ground Truth|
+| Input | MIRNet |RUAS| EnGAN | **FLOL** (ours) | Ground Truth|
 
 
 <p align="center"> <strong>  UHD-LL </strong> </p>
@@ -107,7 +107,7 @@ Processed images will be saved in `./results/dataset_selected/`.
 | <img src="images/gallery/UHD_LL/674_INPUT.JPG" alt="add" width="250"> | <img src="images/gallery/UHD_LL/674_UHDFour.png" alt="add" width="250"> | <img src="images/gallery/UHD_LL/674_FLOL.JPG" alt="add" width="250"> | <img src="images/gallery/UHD_LL/674_GT.JPG" alt="add" width="250"> |
 |:-------------------------:|:-------------------------:|:-------------------------:|:-------------------------:|
 | <img src="images/gallery/UHD_LL/1791_INPUT.JPG" alt="add" width="250"> | <img src="images/gallery/UHD_LL/1791_UHDFour.png" alt="add" width="250"> | <img src="images/gallery/UHD_LL/1791_FLOL.JPG" alt="add" width="250"> | <img src="images/gallery/UHD_LL/1791_GT.JPG" alt="add" width="250"> |
-| Input | UHDFour | **FLOL+** (ours) | Ground Truth|
+| Input | UHDFour | **FLOL** (ours) | Ground Truth|
 
 ## 🎫 License 
 

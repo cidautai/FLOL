@@ -75,7 +75,7 @@ We present results in different datasets for FLOL+.
 |LSRW-Both | 19.23| 0.583|0.273|
 
 ## ✈️ **Evaluation** 
-To check our results you could run the evaluation of DarkIR in each of the datasets:
+To check our results you could run the evaluation of FLOL in each of the datasets:
 - Run ```python evaluation.py --config ./options/LOLv2-Real.yml``` on your terminal to obtain PSNR and SSIM metrics. Default is UHD-LL.
 
 - Run ```python lpips_metric.py  -g /LSRW_GroundTruthImages_path -p /LSRW_predictedimages -e .jpg``` on your terminal to obtain LPIPS value. (LSRW predicted images are obtained by using LOLv2-Real weight file)
